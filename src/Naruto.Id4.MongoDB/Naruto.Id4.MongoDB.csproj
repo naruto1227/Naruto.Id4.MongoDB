@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>zhanghaibo</Authors>
+    <Description></Description>
+    <PackageProjectUrl>https://gitee.com/haiboi/Naruto.Project</PackageProjectUrl>
+    <RepositoryUrl>https://gitee.com/haiboi/Naruto.Project</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Stores\ResourceStore.cs~RF2e8155a.TMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Naruto.Id4.Entities.Mapper" Version="1.0.0" />
+    <PackageReference Include="Naruto.MongoDB" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
